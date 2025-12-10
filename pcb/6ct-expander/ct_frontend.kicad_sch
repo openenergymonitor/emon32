@@ -5,11 +5,11 @@
 	(uuid "324f0fbd-ce43-4137-a3d5-2e162ecba8f0")
 	(paper "A4")
 	(title_block
-		(title "emonPi3")
-		(date "2024-03-21")
-		(rev "v0.2")
-		(company "OpenEnergyMonitor / Tilt Ltd (Angus Logan)")
-		(comment 1 "Original design: Trystan Lea & Glynn Hudson")
+		(title "emonPi3 / Tx6 6CT expander")
+		(date "2025-12-10")
+		(rev "v1.1")
+		(company "OpenEnergyMonitor / Tilt Ltd")
+		(comment 1 "Angus Logan, 2025")
 		(comment 2 "Commit hash: gitrev")
 	)
 	(lib_symbols

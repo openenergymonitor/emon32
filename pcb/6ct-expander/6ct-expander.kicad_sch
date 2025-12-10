@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "b1cba9d5-b8e8-4edd-bd31-06419ce6e6ef")
 	(paper "A4")
+	(title_block
+		(title "emonPi3 / Tx6 6CT expander")
+		(date "2025-12-10")
+		(rev "v1.1")
+		(company "OpenEnergyMonitor / Tilt Ltd")
+		(comment 1 "Angus Logan, 2025")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
@@ -587,6 +594,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 92.71) (xy 144.78 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "30a7ea14-3581-4eeb-996b-408e39f83241")
+	)
+	(wire
+		(pts
 			(xy 58.42 58.42) (xy 71.12 58.42)
 		)
 		(stroke
@@ -614,16 +631,6 @@
 			(type default)
 		)
 		(uuid "357d9296-f288-4136-ba60-ef6cd5471efe")
-	)
-	(wire
-		(pts
-			(xy 129.54 92.71) (xy 144.78 92.71)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4f1f4c1c-618b-42ea-b92c-a36d5d5ddf98")
 	)
 	(wire
 		(pts
@@ -677,6 +684,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 85.09) (xy 142.24 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761d4fbd-eee5-45e3-9e5a-c1ef5b53574c")
+	)
+	(wire
+		(pts
 			(xy 157.48 85.09) (xy 172.72 85.09)
 		)
 		(stroke
@@ -724,16 +741,6 @@
 			(type default)
 		)
 		(uuid "a6b4ab6b-035a-4935-b0d0-bb36624ee99d")
-	)
-	(wire
-		(pts
-			(xy 142.24 85.09) (xy 142.24 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab1f658f-bd8a-4552-93e4-5c33c8a7a41e")
 	)
 	(wire
 		(pts
@@ -1056,13 +1063,13 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 149.86 87.63 0)
+		(at 152.4 87.63 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1481538a-17cb-4645-ac45-4ddb165926f7")
 		(property "Reference" "J7"
 			(at 151.13 77.47 0)
@@ -1081,7 +1088,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
-			(at 149.86 87.63 0)
+			(at 152.4 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1090,7 +1097,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 87.63 0)
+			(at 152.4 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,7 +1106,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 87.63 0)
+			(at 152.4 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
